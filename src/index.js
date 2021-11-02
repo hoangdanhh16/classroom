@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HomePage from './components/page/HomePage';
-import AddClass from './components/class/AddClass';
 
 
 ReactDOM.render(

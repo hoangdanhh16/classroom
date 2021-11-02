@@ -7,12 +7,10 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Box from '@mui/material/Box';
 import AddIcon from '@mui/icons-material/Add';
-import ClassList from './ClassList';
 
 
 export default function FormDialog() {
   const [open, setOpen] = React.useState(false);
-  const [render, setRender] = React.useState(false);
 
 
   const handleClickOpen = () => {
